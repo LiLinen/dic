@@ -1,0 +1,20 @@
+{
+    "name": "lilinen/dic",
+    "description": "Very slim PSR-11 compatible Dependency Injection Container (DIC) example.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Linas Linartas",
+            "email": "linas@linartas.lt"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "LiLinen\\Dic": "src"
+        }
+    },
+    "require": {
+        "psr/container": "^1.0"
+    }
+}
